@@ -6,6 +6,7 @@ remux is the main menu of Garry's Mod of the new generation
 > The project is working in progress. It is not fully usable now.
 
 ![preview screenshot](./screenshots/preview010925_0120.png)
+![preview screenshot](./screenshots/preview210925_0637.png)
 
 # Building
 ```

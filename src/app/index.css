@@ -4,4 +4,16 @@ html, body, #root {
   width: 100%;
   height: 100%;
   user-select: none;
+  font-family: "Manrope";
+}
+
+@layer utilities {
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+
+  .animate-fadeIn {
+    animation: fadeIn 0.3s ease forwards;
+  }
 }

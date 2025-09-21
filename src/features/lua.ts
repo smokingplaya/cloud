@@ -1,4 +1,4 @@
-function runLua(code: string) {
+export function runLua(code: string) {
 	if (arguments.length === 1) {
 		console.log("RUNLUA:" + code);
 		return;
@@ -28,9 +28,9 @@ function runLua(code: string) {
 };
 
 type UiCommands = "ResumeGame" | "OpenServerBrowser" | "Disconnect" | "Quit" | "QuitNoConfirm" | "OpenBenchmarkDialog" | "OpenCreateMultiplayerGameDialog"
-  | "OpenLoadCommentaryDialog" | "OpenLoadGameDialog" | "OpenNewGameDialog" | "OpenOptionsDialog"
-  | "OpenPlayerListDialog" | "OpenSaveGameDialog";
+	| "OpenLoadCommentaryDialog" | "OpenLoadGameDialog" | "OpenNewGameDialog" | "OpenOptionsDialog"
+	| "OpenPlayerListDialog" | "OpenSaveGameDialog";
 
 export function useUiCommand(command: UiCommands) {
-  runLua(`RunGameUICommand("${command}")`);
+	runLua(`RunGameUICommand("${command}")`);
 }
