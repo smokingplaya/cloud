@@ -1,6 +1,7 @@
 @import "tailwindcss";
 
 html, body, #root {
+  --font-mono: "Zed Mono";
   width: 100%;
   height: 100%;
   user-select: none;
