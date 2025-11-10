@@ -10,6 +10,7 @@ import { NewGamePage } from "@/pages/NewGame";
 import { ServerlistPage } from "@/pages/Serverlist";
 import { BackgroundOverlay } from "@/shared/ui/BackgroundOverlay";
 import { runLua } from "@/features/lua";
+import { Console } from "@/pages/console/Console";
 
 runLua("UpdateMapList()");
 
@@ -22,6 +23,7 @@ function AppRouter() {
         <Route path="/newgame" component={NewGamePage} />
         <Route path="/servers" component={ServerlistPage} />
       </Router>
+      <Console/>
     </div>
   )
 }

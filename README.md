@@ -7,6 +7,7 @@ cloud is the main menu of Garry's Mod of the new generation
 
 ![preview screenshot](./screenshots/preview010925_0120.png)
 ![preview screenshot](./screenshots/preview210925_0637.png)
+![developer console](./screenshots/preview101125_2324.png)
 
 # Building
 ```
